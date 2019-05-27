@@ -19,7 +19,7 @@
  *  limitations under the License.
  */
 
-namespace nabu\data\traits;
+namespace nabu\json\traits;
 
 use stdClass;
 
@@ -35,7 +35,7 @@ use nabu\data\CNabuRODataObject;
  * @author Rafael Gutierrez <rgutierrez@nabu-3.com>
  * @since 3.0.0
  * @version 3.0.0
- * @package nabu\data\traits
+ * @package nabu\json\traits
  */
 class TNabuJSONDataTest extends TestCase
 {
