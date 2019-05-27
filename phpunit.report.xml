@@ -1,0 +1,5 @@
+<testsuites>
+    <testsuite name="JSON Utils Tests">
+        <directory>tests</directory>
+    </testsuite>
+</testsuites>
