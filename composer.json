@@ -2,7 +2,7 @@
     "type": "library",
     "name": "nabu-3/json-utils",
     "description": "nabu-3 JSON Utils",
-    "keywords": [ "nabu-3", "nabu", "class", "library", "minimal" ],
+    "keywords": [ "nabu-3", "nabu", "class", "library", "minimal", "json", "utils", "tools" ],
     "repositories": [
         {
             "type": "git",
