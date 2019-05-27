@@ -117,7 +117,7 @@ trait TNabuJSONData
                 !($json = json_decode($raw, JSON_OBJECT_AS_ARRAY))
             )
         ) {
-            trigger_error(sprintf(TRIGGER_ERROR_INVALID_FILE, $filename), E_USER_ERROR);
+            trigger_error(sprintf(TRIGGER_ERROR_INVALID_JSON_FILE, $filename), E_USER_ERROR);
         }
 
         return new $called_class($json);
