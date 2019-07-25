@@ -1,4 +1,4 @@
-# nabu-3 Minimal Class library
+# nabu-3 JSON Utils library
 [![GitHub](https://img.shields.io/github/license/nabu-3/json-utils.svg)](https://opensource.org/licenses/Apache-2.0)
 [![Build Status](https://travis-ci.org/nabu-3/json-utils.svg?branch=master)](https://travis-ci.org/nabu-3/json-utils)
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=nabu-3_json-utils&metric=alert_status)](https://sonarcloud.io/dashboard?id=nabu-3_json-utils)

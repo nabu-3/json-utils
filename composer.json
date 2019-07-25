@@ -2,7 +2,7 @@
     "type": "library",
     "name": "nabu-3/json-utils",
     "description": "nabu-3 JSON Utils",
-    "keywords": [ "nabu-3", "nabu", "class", "library", "minimal" ],
+    "keywords": [ "nabu-3", "nabu", "class", "library", "minimal", "json", "utils", "tools" ],
     "repositories": [
         {
             "type": "git",
@@ -26,7 +26,7 @@
     "require": {
         "php": ">=7.2",
         "ext-mbstring": ">=7.2",
-        "nabu-3/minimal-class": "^3.0"
+        "nabu-3/minimal-class": ">=3.0.5"
     },
     "require-dev": {
         "phpunit/phpunit": "^8"
