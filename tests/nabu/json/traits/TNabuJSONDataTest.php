@@ -27,8 +27,8 @@ use PHPUnit\Framework\Error\Error;
 
 use PHPUnit\Framework\TestCase;
 
-use nabu\data\CNabuDataObject;
-use nabu\data\CNabuRODataObject;
+use nabu\data\CNabuAbstractDataObject;
+use nabu\data\CNabuAbstractRODataObject;
 
 /**
  * PHPUnit tests to verify functionality of trait @see { TNabuJSONData }.
@@ -111,12 +111,12 @@ class TNabuJSONDataTest extends TestCase
     }
 }
 
-class CNabuJSONDataTestingRO extends CNabuRODataObject
+class CNabuJSONDataTestingRO extends CNabuAbstractRODataObject
 {
     use TNabuJSONData;
 }
 
-class CNabuJSONDataTestingWR extends CNabuDataObject
+class CNabuJSONDataTestingWR extends CNabuAbstractDataObject
 {
     use TNabuJSONData;
 }
